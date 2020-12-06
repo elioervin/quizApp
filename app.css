@@ -1,0 +1,51 @@
+.welcomePage, .questionPage, .correctPage, .wrongPage, .endOfQuiz {
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2% 10% 2% 10%;
+  margin: 2% 2% 2% 2%;
+  flex-direction: column;
+}
+
+.question-form {
+  text-align: left;
+}
+
+h3, p {
+  font-family: 'Goldman', cursive;
+  text-align: left;
+}
+
+p {
+  margin: 0;
+}
+
+form, button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  margin: 2%;
+}
+
+
+img {
+  size: 100%;
+  margin: 3%; 
+}
+
+@media screen and (min-width: 600px) {
+  .welcomePage, .questionPage, .correctPage, .wrongPage, .endOfQuiz {
+      background-color: lightgray;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      padding: 2% 2% 2% 2%;
+      margin: 2% 20% 2% 20%;
+      flex-direction: column;
+  }
+  button {
+      margin: 2%;
+  }
+}

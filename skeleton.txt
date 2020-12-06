@@ -1,0 +1,96 @@
+LANDING PAGE:
+
+What's Good! Let's do a little learning for the culture. Answer 7 questions about Black History and gauge where you stand.
+[ DIVE IN! ]
+
+QUESTIONS: 
+
+1. WHO WAS THE FIRST AFRICAN AMERICAN PRESIDENT?
+  - SHAQ
+  - MARS BLACKMAN
+  - BARACK OBAMA
+  - KAMALA HARRIS 
+  
+2. WHICH IS NOT AN HBCU?
+  - MOREHOUSE COLLEGE
+  - TIFFIN UNIVERSITY
+  - SPELMAN 
+  - HOWARD
+  
+3. DR. DRE IS A ?
+  - SURGEON 
+  - DRIVER
+  - THERAPIST
+  - PRODUCER
+ 
+  
+4. WHAT WAS THE NAME OF MLK'S FATHER'S CHURCH?
+  - EBENEZAR BAPTIST 
+  - ATLANTA SOUTHERN BAPTIST
+  - SOUTHERN CHURCH OF THE PEOPLE
+  - ATLANTA TABERNACLE
+  
+5. WHO WROTE THEIR EYES WERE WATCHING GOD?
+  - MEDGER EVERS
+  - SAUL WILLIAMS 
+  - ZORA NEALE HURSTON
+  - JAMES BALDWIN
+
+6. IN 1960, FOUR AFRICAN AMERICAN COLLEGE STUDENTS STAGED A SIT IN THAT HELPED INTEGRATE THIS STORE'S LUNCH COUNTER?
+  - W.T. GRANT
+  - G.C. MURPHY
+  - S.S. KRESGE
+  - WOOLWORTH
+  
+7. Jean-Michel Basquiat was a neo-expressionist American artist who died in what year?
+  - 1984
+  - 1988
+  - 1976
+  - 1999
+  
+  
+  <div class="welcomePage">
+            <h3 class="welcomeMessage">Hey there Family! Let's dive into some Black history. 
+                Answer 7 questions and see how much you know about "the culture' and some ancestors. Are you ready siblings?
+            </h3>
+            <button class="startQuiz" alt="start button">DIVE IN!</button>
+            <img src="https://giphy.com/gifs/lets-kevin-hart-do-this-hT6wgEtwoUt0no87gV" alt="Kevin Hart clapping and saying 'let\s get it'">
+        </div>
+        <div class="questionPage">
+            <form type="submit" class="question">
+                <h3>
+                    QUESTION 1: WHO WAS THE FIRST AFRICAN AMERICAN PRESIDENT?
+                </h3>
+                <input type="radio" name="answer" id="answer 1" class="answer" value="answer 1" required>
+                <label for="answer 1">Answer 1</label><br>
+                <input type="radio" name="answer" id="answer 1" class="answer" value="answer 1">
+                <label for="answer 1">Answer 1</label><br>
+                <input type="radio" name="answer" id="answer 1" class="answer" value="answer 1">
+                <label for="answer 1">Answer 1</label><br>
+                <input type="radio" name="answer" id="answer 1" class="answer" value="answer 1">
+                <label for="answer 1">Answer 1</label><br>
+                <button type="submit" class="answerSubmit">Submit Answer</button>
+                <img src="https://media.giphy.com/media/Au6SIbFy555SM/giphy.gif" alt="Nina Simone flashing image">
+            </form>
+            <p>Correct: 0</p><p>Incorrect: 0</p>
+        </div>
+        <div class="correctPage">
+            <h3>Great job! Answer 1 is the correct answer!</h3>
+            <p>Correct: 0</p><p>Incorrect: 0</p>
+            <button type="submit" class="nextQuestion">Next Question</button>
+            <img src="https://media.giphy.com/media/1kJXHfUaBRQPn3gL55/giphy.gif" alt="Steve Harvey clapping">
+        </div>
+        <div class="wrongPage">
+            <h3>Oh no! The correct answer is answer 2. Better luck next time!</h3>
+            <p>Correct: 0</p><p>Incorrect: 0</p>
+            <button type="submit" class="nextQuestion">Next Question</button>
+            <img src="https://gifimage.net/wp-content/uploads/2017/10/nice-try-gif-2.gif" alt="Joker saying 'Nice try'">
+        </div>
+        <div class="endOfQuiz">
+            <h3>All done! How did you do?</h3>
+            <h3>Correct: 9</h3>
+            <h3>Incorrect: 1</h3>
+            <button class="restartQuiz" alt="do it again">Do it again!</button>
+            <img src="https://media.giphy.com/media/CyRC2jhUo6nDy/giphy.gif" alt="mlk speech crowd cheering">
+        </div>
+
