@@ -66,7 +66,7 @@ const store = {
       correctAnswer: 'WOOLWORTH'
     },
     {
-      question: '7. JeanMichel Basquiat was a neo-expressionist American artist who died in what year?',
+      question: '7. JEAN-MICHELE BASQUIAT WAS A NEO-EXPRESSIONIST AMERICAN ARTIST WHO DIED IN WHAT YEAR?,
       answers: [
         '1984',
         '1988',
