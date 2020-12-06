@@ -108,13 +108,17 @@ function loadQuiz() {
 </h3>
    <form class="question-form">
        <input type="radio" name="answer" id="answer-a" class="answer" value="${selection[0]}" required>
-       <label for="answer">${selection[0]}</label><br>
+       <label for="answer-a">${selection[0]}</label>
+       <br>
        <input type="radio" name="answer" id="answer-b" class="answer" value="${selection[1]}">
-       <label for="answer">${selection[1]}</label><br>
+       <label for="answer-b">${selection[1]}</label>
+       <br>
        <input type="radio" name="answer" id="answer-c" class="answer" value="${selection[2]}">
-       <label for="answer">${selection[2]}</label><br>
+       <label for="answer-c">${selection[2]}</label>
+       <br>
        <input type="radio" name="answer" id="answer-d" class="answer" value="${selection[3]}">
-       <label for="answer">${selection[3]}</label><br>
+       <label for="answer-d">${selection[3]}</label>
+       <br>
        <button type="submit" class="answerSubmit">Submit Answer</button>
    </form>
    <p>Correct: ${store.correct}</p><p>Incorrect: ${store.incorrect}</p>
