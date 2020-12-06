@@ -86,7 +86,7 @@ const store = {
 //we declare an html variable that contains the default html file for the main page
 
 let html =  `<div class="welcomePage">
-  <h3 class="welcomeMessage">What's Good! Let's do a little learning for the culture. Answer 6 questions about Black History and gauge where you stand.</h3>
+  <h3 class="welcomeMessage">What's Good! Let's do a little learning for the culture. Answer 7 questions about Black History and gauge where you stand.</h3>
   <button class="startQuiz" alt="Dive in" autofocus>DIVE IN!</button>
   <iframe src="https://giphy.com/embed/hT6wgEtwoUt0no87gV" width="480" height="330" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/lets-kevin-hart-do-this-hT6wgEtwoUt0no87gV">via GIPHY</a></p>
 </div>`;
@@ -180,7 +180,7 @@ function answerCheck(review) {
 
 //function that gets triggered when the start quiz button is clicked
 function handleStartQuiz() {
-  $('.startQuiz').click(function(event) {
+  $('.startQuiz').click((event) => {
     console.log('Start quiz has been clicked');
     html = loadQuiz();
     main();
@@ -203,7 +203,7 @@ function handleSubmit() {
 function handleNextQuestion() {
   $('.nextQuestion').click(function(event) {
     console.log( `clicked to load question ${store.questionNumber + 1}`);
-    if(store.questionNumber < 10) {
+    if(store.questionNumber < 7) {
       html = loadQuiz();
     } else {
       endPage();
