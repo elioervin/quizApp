@@ -193,7 +193,7 @@ function handleSubmit() {
   $('.question-form').submit(event => {
     event.preventDefault();
     console.log('Answer submit was clicked');
-    let userAnswer = $('input[name=\'answer\']:checked').val();
+    let userAnswer = $('input[name="answer"]:checked').val();
     answerCheck(userAnswer);
     main();
   });
