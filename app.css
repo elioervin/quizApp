@@ -31,8 +31,8 @@ button {
 
 
 img {
-  size: 100%;
-  margin: 3%; 
+  width: 100%;
+  margin: 3% auto; 
 }
 
 @media screen and (min-width: 600px) {

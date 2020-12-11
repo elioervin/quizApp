@@ -84,11 +84,18 @@ const store = {
 
 
 //we declare an html variable that contains the default html file for the main page
+// //function template(){
+//   let html =  `<div class="welcomePage">
+//   <h3 class="welcomeMessage">What's Good! Let's do a little learning for the culture. Answer 7 questions about Black History and gauge where you stand.</h3>
+//   <button class="startQuiz" alt="Dive in" autofocus>DIVE IN!</button>
+//   <img src="https://media.giphy.com/media/hT6wgEtwoUt0no87gV/giphy.gif" alt="Kevin Hart clapping" width="100%">
+// </div>`;
+// }
 
 let html =  `<div class="welcomePage">
   <h3 class="welcomeMessage">What's Good! Let's do a little learning for the culture. Answer 7 questions about Black History and gauge where you stand.</h3>
   <button class="startQuiz" alt="Dive in" autofocus>DIVE IN!</button>
-  <iframe src="https://giphy.com/embed/hT6wgEtwoUt0no87gV" width="480" height="330" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/lets-kevin-hart-do-this-hT6wgEtwoUt0no87gV">via GIPHY</a></p>
+  <img src="https://media.giphy.com/media/hT6wgEtwoUt0no87gV/giphy.gif" alt="Kevin Hart clapping" width="100%">
 </div>`;
 
 //this function renders our page
@@ -103,10 +110,12 @@ function loadQuiz() {
   let selection = store.questions[number].answers;
   console.log(`Quiz No. ${number + 1} is loaded.`);
   return  `<div class="questionPage">
-   <h3>
-   QUESTION ${number + 1}: ${store.questions[number].question}
-</h3>
+  
    <form class="question-form">
+      <h3>
+       QUESTION ${number + 1}: ${store.questions[number].question}
+      </h3>
+
        <input type="radio" name="answer" id="answer-a" class="answer" value="${selection[0]}" required>
        <label for="answer-a">${selection[0]}</label>
        <br>
@@ -149,6 +158,7 @@ function isIncorrect(answer) {
    <img src="https://gifimage.net/wp-content/uploads/2017/10/nice-try-gif-2.gif" alt="Joker saying 'Nice try'">
 </div>`;
 }
+
 
 //this function changes the html value when the user finishes the last question
 
